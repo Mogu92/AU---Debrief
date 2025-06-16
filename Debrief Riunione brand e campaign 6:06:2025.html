@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debrief Riunione: Sviluppo Campagne e Brand - American Uncle</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+        :root {
+            --primary-color: #e67e22; /* American Uncle Orange */
+            --secondary-color: #f39c12;
+            --background-color: #f8f9fa;
+            --card-background: #ffffff;
+            --text-color: #34495e;
+            --light-gray: #ecf0f1;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--background-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: var(--card-background);
+            padding: 30px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--light-gray);
+        }
+
+        header h1 {
+            color: var(--primary-color);
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #7f8c8d;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-bottom: 1px solid var(--light-gray);
+            padding-bottom: 5px;
+        }
+
+        .node {
+            background-color: var(--light-gray);
+            border-radius: var(--border-radius);
+            margin-bottom: 15px;
+            overflow: hidden;
+            border: 1px solid #e0e0e0;
+        }
+
+        .node-header {
+            padding: 15px 20px;
+            background-color: var(--primary-color);
+            color: white;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1.1em;
+        }
+
+        .node-header.main-topic {
+            background-color: var(--secondary-color);
+            font-size: 1.2em;
+        }
+
+        .node-content {
+            padding: 15px 20px;
+            background-color: var(--card-background);
+            border-top: 1px solid var(--light-gray);
+            display: none; /* Hidden by default */
+        }
+
+        .node-content ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .node-content li {
+            margin-bottom: 8px;
+        }
+
+        .node-content li strong {
+            color: var(--primary-color);
+        }
+
+        .toggle-icon {
+            font-size: 1.2em;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .node.active .toggle-icon {
+            transform: rotate(90deg);
+        }
+
+        .task-list {
+            border-top: 2px dashed var(--light-gray);
+            padding-top: 15px;
+            margin-top: 15px;
+        }
+
+        .task-list h4 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .task-list ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        .task-list li a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .task-list li a:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--light-gray);
+            font-size: 0.9em;
+            color: #7f8c8d;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Debrief Riunione: Sviluppo Campagne e Brand</h1>
+            <p>American Uncle - 6 Giugno 2025</p>
+            <p>Partecipanti: Alessandro Odierna, Silvia Ambrosio, Rosalba Terracciano, Simona Tudisco, Alessandro Sportelli, Martina Crescenzo, Fabrizio Barile</p>
+        </header>
+
+        <section>
+            <div class="section-title">Obiettivo della Riunione</div>
+            <div class="node">
+                <div class="node-header">
+                    Obiettivo Principale
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    Discutere il pre-brief per la sezione "corporate gifting by American Uncle" e come comunicare questa nuova offerta sul sito, con l'obiettivo di posizionare American Uncle come partner affidabile per regali aziendali originali, generare lead qualificati e aumentare le vendite anche al di fuori del periodo natalizio. 
+                </div>
+            </div>
+
+            <div class="section-title">Decisioni Chiave Prese</div>
+            <div class="node">
+                <div class="node-header">
+                    Definizione del Target e Ricerca di Mercato Cruciali
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    La definizione del target e una ricerca approfondita sui suoi painpoint e esigenze sono state identificate come passi fondamentali e prioritari per lo sviluppo della comunicazione del corporate gifting. 
+                </div>
+            </div>
+            <div class="node">
+                <div class="node-header">
+                    Lancio Comunicazione Entro Inizio Luglio
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    L'obiettivo è lanciare la comunicazione relativa al corporate gifting entro inizio luglio (indicativamente 27 giugno), pur riconoscendo le attività ancora da sbloccare. Agosto è stato escluso. 
+                </div>
+            </div>
+            <div class="node">
+                <div class="node-header">
+                    Preparare una Presentazione Aziendale
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    È stata ritenuta fondamentale la realizzazione di una presentazione aziendale da inviare in caso di problemi con l'e-commerce o come materiale di base. 
+                </div>
+            </div>
+
+            <div class="section-title">Problemi/Ostacoli Emersi</div>
+            <div class="node">
+                <div class="node-header">
+                    Mancanza di Ricerca Approfondita sul Target
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    Non è stata ancora condotta un'analisi approfondita sui painpoint e sulle esigenze specifiche del target per i regali aziendali. 
+                </div>
+            </div>
+            <div class="node">
+                <div class="node-header">
+                    Problematiche Mystery Box (Esigenze Alimentari)
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    La Mystery Box può presentare rischi legati alle esigenze alimentari dei destinatari, potendo causare una brutta figura all'azienda mittente.  Sono state discusse soluzioni come disclaimer o valorizzazione dell'opzione senza glutine della Wunnie Box. La gift card è stata indicata come soluzione per le preferenze sconosciute. 
+                </div>
+            </div>
+            <div class="node">
+                <div class="node-header">
+                    Complessità Processo d'Acquisto Online
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    Si è discusso se il processo d'acquisto online dovesse essere completamente self-service o con supporto. È emersa la necessità di semplificare per gli ordini base, mantenendo il contatto per personalizzazioni complesse.  Per personalizzazioni elevate è necessario intervento grafico e approvazione. 
+                </div>
+            </div>
+
+            <div class="section-title">Aree Tematiche e Task Correlati</div>
+
+            <div class="node main-topic">
+                <div class="node-header">
+                    Progetto Corporate Gifting e Offerta
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    <p>Martina Crescenzo ha presentato il progetto Corporate Gifting, illustrando l'obiettivo di offrire un modo originale e gustoso per ringraziare e costruire relazioni.  L'offerta include la OneNY Box con tre livelli di personalizzazione (start, advance, pro) e l'invio di preventivi personalizzati per ordini superiori a 100 unità o prodotti diversi.  Sono state proposte anche snackbox (in attesa preventivo costi da Rosalba) e gift card digitali personalizzabili. </p>
+                    <div class="task-list">
+                        <h4>Task Correlati:</h4>
+                        <ul>
+                            <li>Definire la Mystery Box con costi specifici.  <br> **Responsabile:** Rosalba Terracciano <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                            <li>Valutare costi e fattibilità per l'offerta di gift card digitali personalizzabili.  <br> **Responsabile:** [Da Definire] <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="node main-topic">
+                <div class="node-header">
+                    Ricerca Target e Comunicazione
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    <p>Fabrizio Barile ha sottolineato la necessità di definire meglio il target e i suoi painpoint tramite ricerca, suggerendo di contattare clienti esistenti e analizzare il mercato.  Ha menzionato una ricerca già fatta sul mercato americano ed europeo, offrendosi di condividere un abstract e citando Snack Magic come esempio.  Alessandro Sportelli ha suggerito una deep search più mirata.  L'obiettivo è lanciare la comunicazione entro inizio luglio. </p>
+                    <div class="task-list">
+                        <h4>Task Correlati:</h4>
+                        <ul>
+                            <li>Definire il target per l'offerta corporate gifting.  <br> **Responsabile:** [PM / Team Marketing] <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                            <li>Condurre ricerca approfondita sui painpoint e esigenze del target, contattando clienti esistenti e network.  <br> **Responsabile:** Fabrizio Barile <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                            <li>Integrare la ricerca di Fabrizio Barile nella strategia di comunicazione.  <br> **Responsabile:** [PM / Team Marketing] <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                            <li>Creare contenuti divertenti in stile American Uncle per advertising e LinkedIn.  <br> **Responsabile:** [Team Marketing/Creativo] <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="node main-topic">
+                <div class="node-header">
+                    Comunicazione E-commerce e Processo di Acquisto
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    <p>Martina Crescenzo ha illustrato l'idea di una sezione dedicata nel menu/footer e una landing page semplice ma funzionale per il corporate gifting.  È stata discussa l'importanza di semplificare il processo d'acquisto online, bilanciando self-service e supporto completo per personalizzazioni complesse.  Si è parlato di caricare liste di indirizzi e visualizzare un'anteprima della personalizzazione.  L'automazione si limiterà all'inserimento del logo aziendale nei mockup iniziali. </p>
+                    <div class="task-list">
+                        <h4>Task Correlati:</h4>
+                        <ul>
+                            <li>Sviluppare la sezione e-commerce dedicata al corporate gifting (menu/footer e landing page).  <br> **Responsabile:** [Team Sviluppo/Web] <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                            <li>Semplificare il processo di acquisto online per ordini base e definire il flusso per personalizzazioni complesse.  <br> **Responsabile:** [Team Prodotto/Sviluppo] <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                            <li>Valutare l'implementazione della funzionalità di caricamento liste indirizzi e anteprima personalizzazione.  <br> **Responsabile:** [Team Sviluppo] <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                            <li>Creare un video "how it works" da inserire nella landing page.  <br> **Responsabile:** [Team Creativo/Marketing] <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="node main-topic">
+                <div class="node-header">
+                    Strategie di Promozione e Contenuti
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    <p>Martina Crescenzo ha suggerito l'upsell di un biglietto personalizzato , l'inclusione di social proof con recensioni , l'utilizzo dell'email marketing (di competenza di Fabrizio Barile)  e il ricontatto del network di partner. È stato riaffermato l'uso del corporate gifting come pretesto per intercettare i contatti giusti nelle aziende.  Si è discussa la possibilità di utilizzare mockup con loghi di aziende note per ancoraggio visivo. </p>
+                    <div class="task-list">
+                        <h4>Task Correlati:</h4>
+                        <ul>
+                            <li>Implementare l'upsell per il biglietto personalizzato.  <br> **Responsabile:** [Team Sviluppo/Marketing] <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                            <li>Raccogliere e integrare social proof (recensioni/feedback clienti).  <br> **Responsabile:** [Team Marketing] <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                            <li>Definire e implementare strategia di email marketing per il corporate gifting.  <br> **Responsabile:** Fabrizio Barile <br> **Asana Link:** [Inserisci Link Task Asana]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-title">Punti in Sospeso e Prossimi Passi Generali</div>
+            <div class="node">
+                <div class="node-header">
+                    Monitoraggio Primi Test e Consapevolezza Brand
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    Il successo dei primi test non si misurerà solo dalle vendite, ma anche dall'acquisizione di informazioni e dalla creazione di consapevolezza che American Uncle offre regali aziendali. 
+                </div>
+            </div>
+            <div class="node">
+                <div class="node-header">
+                    Prossime Riunioni
+                    <span class="toggle-icon">&#9654;</span>
+                </div>
+                <div class="node-content">
+                    <ul>
+                        <li>Grow Strategy (Martedì 10) per discutere di Apollo (spostamento alla mattina dello stesso giorno richiesto da Simona Tudisco). </li>
+                        <li>Comunicazione (Mercoledì della settimana successiva). </li>
+                        <li>Discussione specifica Corporate Gifting (Martedì 17). </li>
+                        <li>Alessandro Sportelli assente il 17, ha chiesto aggiornamenti sui progressi. </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            Generato automaticamente con l'assistenza di Gemini.
+            <br>
+            Ricorda di inserire i link diretti ai task Asana.
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const nodeHeaders = document.querySelectorAll('.node-header');
+
+            nodeHeaders.forEach(header => {
+                header.addEventListener('click', () => {
+                    const node = header.closest('.node');
+                    const content = node.querySelector('.node-content');
+                    const icon = header.querySelector('.toggle-icon');
+
+                    if (node.classList.contains('active')) {
+                        content.style.display = 'none';
+                        node.classList.remove('active');
+                    } else {
+                        content.style.display = 'block';
+                        node.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
